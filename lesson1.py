@@ -1,0 +1,91 @@
+print("monday")
+#FOR ONE LINE OF NOTES, USE HASHTAGS {losers are cool too}
+print('monday ' + 'tuesday')
+#PLUS SIGNS (+) DON'T ADD SPACES
+print('monday','and','tuesday',21)
+#COMMAS (,) DO ADD SPACES
+#COMMAS ARE ALSO ABLE TO CONCATENATE (MERGE) BETWEEN NUMBERS AND STRINGS
+"""FOR PARAGRAPHS OF NOTES, USE TRIPLE QUOTATIONS 
+{i agree yes, omg yes i agree uwa!!!}"""
+print('wednesday',end=' ')
+print('is an underrated day')
+#end= MEANS AT THE END OF STRING, TYPE THIS:
+print(((12-2) + (2*8))/0.9)
+gay = "me"
+print(gay)
+#VARIABLES ARE GREAT TO EASILY TYPE IN LONGER SENTENCES AND SHIT
+me = "The real best person in the world for real tho my brother is a close #1"
+print(me)
+x = 1900
+print(x/2)
+x = 1500
+print(x/2)
+#YOU CAN REDEFINE ANY VARIABLE BECAUSE THE COMPILER IS READING THE CODE FROM TOP TO BOTTOM
+gay = "probably not me"
+print(gay)
+#\ PLUS ANYTHING IS AN ESCAPE SEQUENCE
+print('HI\nHELLO')
+#\n IS A NEW LINE CHARACTER THAT CREATES A NEW LINE
+print('can\'t','couldn\'t','wouldn\'t')
+#\' AND \" HELPS INCLUE APOSTROPHES AND QUOTATIONS IN STRINGS
+print('\\')
+#\\ HELPS INCLUDE BACKSLASHES IN STRINGS
+
+#DATA TYPES ARE USED TO DEFINE VARIABLES
+#VALUES DETERMINE VARIABLES IN THEIR DATA TYPES
+"""
+x = 9.3
+(Variable: x
+Data Type: Float
+Value: 9.3)
+"""
+#THESE ARE ALL DIFFERENT DATA TYPES:
+#INTEGERS ARE ANY NUMBERS WITH AN EXACT VALUE SAY 1, 2, or 3
+#FLOATS ARE ANY NUMBERS WITHOUT AN EXACT VALUE SAY 1.5, 2.2, 3.14
+#STRINGS ARE WORDS AND SHIT
+x = str(3)
+y = int(3)
+z = float(3)
+#THESE ARE THE FUNCTIONS TO CAST VALUES INTO DIFFERENT DATA TYPES ^
+print(x, y, z)
+#BOOLEANS ARE ANOTHER DATA TYPE THAT DETERMINES IF VALUES ARE TRUE OR FALSE
+y = (3 + 2 == 5)
+print('this is', y)
+#THERE IS NO FUNCTION TO CAST VALUES INTO A BOOLEAN DATA TYPE BECAUSE YOU CAN'T CAST 3 INTO TRUE
+y = (3 == True)
+print(y)
+#True AND False ARE THEIR OWN VALUES THAT DON'T NEED TO BE DEFINED
+
+#LISTS ARE DATA TYPES THAT HOLD LISTS {:D} OF VALUES
+fruits = ['apple', 'orange', 'grape', 'strawberry', 'cherry', 'mango']
+print(fruits)
+#IN ORDER ACCESS A SINGLE VALUE IN A LIST, CALL ITS INDEX
+#EACH VALUE IN A LIST IS ASSIGNED AN INDEX
+#AN INDEX STARTS AT 0 AT THE BEGGINNING OF THE LIST AND CONTINUES FORWARD BY ADDING 1 FOR EACH VALUE
+print(fruits[2])
+print(fruits[1+2])
+print(fruits[-2])
+#A NEGATIVE INDEX MAKES THE COMPILER COUNT BACKWARDS
+print(fruits[3:5])
+#YOU CAN INCLUDE MULTIPLE VALUES FROM A LIST THAT ARE NEXT TO EACH OTHER BY USING A COLON
+red = [fruits[0], fruits[3], fruits[4]]
+print(red)
+#WITH VALUES THAT ARE NOT NEXT TO EACH OTHER YOU CAN ASSIGN VALUES TO A VARIABLE AND PRINT AS A STRING
+fruits[5] = 'guava'
+print(fruits)
+#YOU CAN CHANGE VALUES BY SIMPLY CALLING THEIR INDEX AND REDEFINING THAT INDEX
+#YOU CAN ALSO CHANGE MULTIPLE VALUES BY CALLING THEIR INDEXES WITH A COLON AND REDEFINING ALL OF THEM
+fruits[1:3] = "banana", "watermelon"
+print(fruits)
+#YOU CAN ADD VALUES TO A LIST USING (listname).append((value))
+#YOU CAN REMOVE VALUES FROM A LIST USING (listname).remove((value))
+#YOU CAN ALSO REMOVE VALUES FROM A LIST USING (listname).pop((index))
+#YOU CAN INSERT VALUES TO A LIST USING (listname).insert((index),(value))
+fruits.append('peach')
+print(fruits)
+fruits.remove('apple')
+print(fruits)
+fruits.pop(2)
+print(fruits)
+fruits.insert(2, 'kiwi')
+print(fruits)

@@ -1,0 +1,56 @@
+#LOOPS
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+for x in fruits:
+    print(x)
+#USING (for (variable) in (listname):), THE VARIABLE ACTS AS AN INDIVIDUAL VALUE IN A LIST AND LOOPS IT
+common = [30, 21, 56, 19, 34]
+for y in common:
+    y += 3
+    #y = y + 3
+    print(y)
+#FUNCTIONS NEED TO BE UNDER A LOOP FOR THE FUNCTION TO ACKNOLEDGE SAID LOOP
+#y += 3 IS THE SAME AS y = y + 3
+
+#COMPARISON OPERATORS ARE SYMBOLS THAT COMPARE TWO VALUES
+"""
+EQUALS:  a == b
+NOT EQUALS:  a != b
+LESS THAN:  a < b
+LESS THAN OR EQUAL TO:  a <= b
+GREATER THAN:  a > b
+GREATER THAN OR EQUAL TO:  a >= b
+"""
+#MODULE OPERATOR (a % b) DETERMINES THE REMAINDER WHEN DIVIDING BY ANY NUMBER
+
+#IF STATEMENTS ASKS WHETHER VALUES ARE TRUE OR FALSE AND DEPENDING ON THE ANSWER DECLARES AN INPUT
+a = 40
+b = 90
+if b > a:
+    print("b is greater than a")
+
+#NEW FUNCTIONS:
+print(range(3))
+for z in range(6):
+    print(z)
+#RANGE (range(x)) HOLDS A LIST OF VALUES FROM 0 TO A NUMBER NOT INCLUDING SAID NUMBER
+len(fruits)
+print(len(fruits))
+#LENGTH (len(x)) DETERMINES HOW MANY VALUES ARE IN A LIST
+
+for y in range(len(common)):
+    print(common[y])
+"""
+len(common) COUNTS THE NUMBER OF VALUES IN THE LIST WHICH IS 4
+range(len(common)) DETERMINES THE RANGE FROM 0 - len(common) WHICH IS 4
+SINCE y IS THE RANGE OF THE LIST, print(common[y]) PRINTS THE VALUES IN THE LIST BASED ON THEIR INDEX
+"""
+
+for y in range(len(common)):
+    if y % 2 == 0:
+        print(common[y])
+"""
+y % 2 == 0 IS MAKING SURE THAT IF ANY TIME y IS DIVIDED BY 2 AND THE REMAINDER IS 0, THE VALUE IS QUALIFIED FOR THE NEXT COMMAND
+IF A VALUE GOES THROUGH THE FUNCTION AND ISN'T 0, IT WILL NOT CONTINUE THROUGH THE FUNCTION
+THE FUNCTION THAT QUALIFIED VALUES GO THROUGH IS PRINT SO ALL QUALIFIED VALUES WILL BE SHOWN IN THE TERMINAL
+"""
