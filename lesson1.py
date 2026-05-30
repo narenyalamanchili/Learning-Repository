@@ -52,7 +52,7 @@ print(x, y, z)
 y = (3 + 2 == 5)
 print('this is', y)
 #THERE IS NO FUNCTION TO CAST VALUES INTO A BOOLEAN DATA TYPE BECAUSE YOU CAN'T CAST 3 INTO TRUE
-y = (3 == True)
+y = (3 == 5)
 print(y)
 #True AND False ARE THEIR OWN VALUES THAT DON'T NEED TO BE DEFINED
 
