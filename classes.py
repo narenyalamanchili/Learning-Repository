@@ -18,8 +18,8 @@ class pets:
         self.name = name
         self.sound = sound
         self.lifespan = lifespan
-    # def to_string(self):
-    #     print(f'{self.name}, {self.sound}, {self.lifespan}')
+    def to_string(self):
+        print(f'{self.name}, {self.sound}, {self.lifespan}')
 
 dog = pets(['dog', 'puppy'],['bark', 'ruff', 'woof'])
 cat = pets(['cat', 'kitty'],'meow')

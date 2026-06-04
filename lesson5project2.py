@@ -10,3 +10,5 @@ def man(man):
         print('Value: 0')
 
 man(input(': '))
+
+
