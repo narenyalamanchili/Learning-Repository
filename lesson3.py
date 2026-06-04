@@ -9,7 +9,7 @@ me(39)
 x = me('john')
 print(x)
 
-# def password_identifier(password):
+def password_identifier(password):
     # if (type(int(password)) == type (0)):
     #     if (password < 298):
     #         print('not')
@@ -18,17 +18,17 @@ print(x)
     #     if (password == 298):
     #         print('who is this tho')
 
-    # if (type(password) == type('lol')):
-    #     if (password == f'298, benedict'):
-    #         print('kill jerry')
-    #     elif (password == 'password'):
-    #         print('no\n\n\nbad')
-    #     elif (password == '298, jerry'):
-    #         print('your word passed')
-    #     else:
-    #         print('yeaaaaa...\n...nah')
+    if (type(password) == type('lol')):
+        if (password == f'298, benedict'):
+            print('kill jerry')
+        elif (password == 'password'):
+            print('no\n\n\nbad')
+        elif (password == '298, jerry'):
+            print('your word passed')
+        else:
+            print('yeaaaaa...\n...nah')
 
-# password_identifier(input('tell your password: '))
+password_identifier(input('tell your password: '))
 
 
 y = 55
