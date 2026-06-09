@@ -1,5 +1,5 @@
-honda_writer = open('file accessing/honda.txt', 'w')
-honda_reader = open('file accessing/honda.txt', 'r')
+honda_writer = open('file accessing/hello/honda.txt', 'w')
+honda_reader = open('file accessing/hello/honda.txt', 'r')
 
 '''
 4 things u can do in a open file function seen above:
@@ -21,7 +21,7 @@ honda_writer.close()
 
 print(honda_reader.read())
 
-honda_appender = open('file accessing/honda.txt', 'a')
+honda_appender = open('file accessing/hello/honda.txt', 'a')
 
 honda_appender.write(f'\n{str ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])}')
 
@@ -42,25 +42,25 @@ it does not need to be closed and the functions inside will close as soon as eve
 
 print('with statements:')
 
-with open('file accessing/honda.txt', 'r') as honda:
+with open('file accessing/hello/honda.txt', 'r') as honda:
     print(honda.readline())
 
 #readline() function will only print the incoming line
 
-with open('file accessing/honda.txt', 'r') as honda:
+with open('file accessing/hello/honda.txt', 'r') as honda:
     for line in honda:
         print(line)
 
 
 
-with open('file accessing/honda.txt', 'r') as honda:
+with open('file accessing/hello/honda.txt', 'r') as honda:
     print(honda.read(25))
     print(honda.read())
 
 print("exp")
 
 print()
-with open('file accessing/honda.txt', 'r') as honda:
+with open('file accessing/hello/honda.txt', 'r') as honda:
     first_line = honda.read(len(honda.readline()))
     new_start = first_line[0:]
     print(new_start)
@@ -76,7 +76,7 @@ The [0:] means that it will set the variable new_start to the second line from i
 '''
 
 
-with open('file accessing/honda.txt', 'r') as honda:
+with open('file accessing/hello/honda.txt', 'r') as honda:
     first_line = honda.read(len(honda.readline()))
     print(first_line)
 
